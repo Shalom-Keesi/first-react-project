@@ -1,0 +1,25 @@
+.modal{
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        align-Items: center;
+        justify-Content: center;
+
+}
+.login-popUp{
+        background: white;
+        height: 300px;
+        width: 640px;
+        margin: auto;
+        padding: 2%;
+        border: 2px solid #000;
+        border-Radius: 10px;
+        box-Shadow: 2px solid black;
+
+
+}

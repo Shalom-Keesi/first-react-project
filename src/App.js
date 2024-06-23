@@ -32,7 +32,6 @@ function App(){
       {!isLoggedIn ?(
         <>
       <h1 style={{color:"rgb(59,123,59)"}}>Welcome</h1>
-      <h4>Login to view your details</h4>
       <button type="button" onClick={handleOpen}>Login</button>
       <Modal isOpen ={open} onClose= {handleClose}>
       <>

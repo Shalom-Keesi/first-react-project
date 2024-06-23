@@ -26,7 +26,7 @@ function Login ({onLoginSuccess}){
         <div>
        
         <form onSubmit={handleSubmit}>
-            {/* <h2>Login</h2> */}
+     
             <input placeholder="Enter Username" type="text" onChange={(event)=> setUsername(event.target.value)}/>
             <br/>
             <input placeholder="Enter Password" type="password" onChange={(event)=> setPassword(event.target.value)}/>
